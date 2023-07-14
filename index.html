@@ -17,7 +17,7 @@
             <h1>Maaz's Portfolio</h1>
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Skills</a></li>
                     <li><a href="#">Projects</a></li>
@@ -28,19 +28,38 @@
 
         <main>
             <section class="left-Section">
-                <p>About me</p>
+                <h1>Hi, My name is <span class="highlight">Maaz</span> and I am a passionate <span id="element"></span>
+                </h1>
+                <div class="button-container">
+
+                    <button><a href="Files/Resume.pdf" download>Download Resume</a></button>
+                    <button><a href="https://github.com/Maaz-07" target="_blank">GitHub</a></button>
+                </div>
             </section>
             <section class="Right-Section">
-                <img src="Images/pngtree-web-developer-isometric-illustration-png-image_6067558-removebg-preview.png" alt="">
+                <img src="Images/pngtree-web-developer-isometric-illustration-png-image_6067558-removebg-preview.png"
+                    alt="">
             </section>
 
         </main>
 
         <footer>
-            <h1>Copyright</h1>
+            <div class="copyright">
+                <p>&copy; 2023 Maaz's Portfolio. All rights reserved.</p>
+              </div>
         </footer>
 
     </div>
+    <span id="element"></span>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Data Scrapper', 'Content Writer'],
+            typeSpeed: 50,
+            loop: true
+        });
+    </script>
 
 
 </body>
