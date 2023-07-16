@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon-16x16.png">
+</head>
+
+<body>
+    <div class="container">
+        <header></header>
+        <main>
+            <section class="left">
+                <img src="Images/Developer.png" alt="" loading="lazy">
+            </section>
+
+            <section class="Right fade-in">
+                <h1>
+                    Hello there<span class="hand-animation"><img src="Images/Hand Wave.png" alt="Hand Signaling"></span><br>
+                </h1>
+                <p id="typing-animation">
+                </p>
+            </section>
+        </main>
+
+        <footer></footer>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const aboutSection = document.querySelector(".fade-in");
+            aboutSection.classList.add("visible");
+        });
+    </script>
+
+    <script src="typing-animation.js"></script>
+    <script src="navbar.js"></script>
+    <script src="footer.js"></script>
+</body>
+
+</html>

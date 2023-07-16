@@ -1,10 +1,10 @@
 function createNavbar() {
     const navItems = [
       { text: 'Home', link: 'index.html' },
-      { text: 'About', link: '#' },
-      { text: 'Skills', link: '#' },
-      { text: 'Projects', link: '#' },
-      { text: 'Contact Me', link: '#' },
+      { text: 'About', link: 'about.html' },
+      { text: 'Skills', link: 'skills.html' },
+      { text: 'Projects', link: 'projects.html' },
+      { text: 'Contact Me', link: 'contactme.html' },
     ];
   
     const header = document.createElement('header');

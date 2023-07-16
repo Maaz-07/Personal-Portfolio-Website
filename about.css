@@ -1,0 +1,57 @@
+.left {
+    float: left;
+    width: 50%;
+}
+
+.left img {
+    padding-top: 30px;
+    margin-left: 75px;
+    width: 650px;
+    height: 500px;
+}
+
+.Right {
+    float: right;
+    width: 50%;
+}
+
+.Right h1 {
+    font-size: 55px;
+    color: #ff0000;
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-right: 150px;
+    margin-bottom: 1px;
+}
+
+.Right p {
+    font-size: 18px;
+    font-weight: 1000;
+    padding-left: 100px;
+    padding-right: 150px;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.hand-animation {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    left: -3px;
+}
+
+.hand-animation img {
+    width: 45px;
+    height: 45px;
+    padding-left: 10px;
+    margin-bottom: 6px;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+}
