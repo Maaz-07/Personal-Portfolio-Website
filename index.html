@@ -16,24 +16,13 @@
 
 <body>
     <div class="container">
-        
-        <header>
-            <h1>Maaz's Portfolio</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact Me</a></li>
-                </ul>
-            </nav>
-        </header>
+
+        <header></header>
 
         <main>
             <section class="left-Section">
-                <h1>Hi, My name is <span class="highlight">Maaz</span> and I am a passionate <span id="element"></span>
-                </h1>
+                <h1>Hi, My name is <span class="highlight">Maaz</span> and I am a passionate <span id="element"
+                        class="highlight"></span></h1>
                 <div class="button-container">
                     <button><a href="Files/Resume.pdf" download>Download Resume</a></button>
                     <button><a href="https://github.com/Maaz-07" target="_blank">GitHub</a></button>
@@ -45,15 +34,13 @@
             </section>
         </main>
 
-        <footer>
-            <div class="copyright">
-                <p>&copy; 2023 Maaz's Portfolio. All rights reserved.</p>
-            </div>
-        </footer>
+        <footer></footer>
 
     </div>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="navbar.js"></script>
+    <script src="footer.js"></script>
     <script>
         var typed = new Typed('#element', {
             strings: ['Web Developer', 'Data Scrapper', 'Content Writer'],
@@ -61,6 +48,6 @@
             loop: true
         });
     </script>
-
 </body>
+
 </html>

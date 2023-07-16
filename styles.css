@@ -127,18 +127,17 @@ footer {
     color: #ffffff;
     padding: 20px;
     text-align: center;
-  }
-  
-  footer p {
+}
+
+footer p {
     font-size: 14px;
     margin: 0;
-  }
-  
-  footer:hover {
+}
+
+footer:hover {
     background-color: #222222;
-  }
-  
-  footer:hover p {
+}
+
+footer:hover p {
     color: #ff0000;
-  }
-  
+}
