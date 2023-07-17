@@ -27,7 +27,11 @@
                 <h1>
                     Hello there<span class="hand-animation"><img src="Images/Hand Wave.png" alt="Hand Signaling"></span><br>
                 </h1>
-                <p id="typing-animation">
+                <p class="typing-animation"
+                    data-text="I'm Maaz, a zealous programmer with a love for coding and problem-solving. I enjoy working on diverse projects and expanding my skills in various technologies.">
+                </p>
+                <p class="typing-animation"
+                    data-text="I am currently a dedicated and passionate student at Fast-NU with a strong interest in programming and technology. As an aspiring developer, I am eager to learn and explore various programming languages and tools.">
                 </p>
             </section>
         </main>
@@ -35,14 +39,14 @@
         <footer></footer>
     </div>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
+    <script src="typing-animation.js">
+
+        document.addEventListener("DOMContentLoaded", function () {
             const aboutSection = document.querySelector(".fade-in");
             aboutSection.classList.add("visible");
         });
     </script>
 
-    <script src="typing-animation.js"></script>
     <script src="navbar.js"></script>
     <script src="footer.js"></script>
 </body>

@@ -1,0 +1,70 @@
+.heading {
+    padding-left: 450px;
+    font-size: 28px;
+    color: #ff0000;
+}
+
+.imgContainer {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 img {
+    width: 300px;
+    height: 150px;
+}
+
+.img2 {
+    padding-left: 40px;
+}
+
+.img2 img {
+    padding-bottom: 7px;
+    width: 120px;
+    height: 143px;
+}
+
+.img3{
+    padding-left: 350px;
+}
+
+.img3 img{
+    width: 160px;
+    height: 150px;
+}
+
+.img4{
+    padding-left: 20px;
+}
+
+.img4 img{
+    width: 150px;
+    height: 160px;
+}
+
+.img5{
+    padding-left: 20px;
+}
+
+.img5 img{
+    width: 170px;
+    height: 160px;
+}
+
+.img6{
+    padding-left: 20px;
+}
+
+.img6 img{
+    width: 80px;
+    height: 160px;
+}
+
+.Program {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
